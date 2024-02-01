@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tantoluwa's Portfolio Website</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/d5534ef27e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/8.png" class="logo" width="200" height="150">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Designer|Engineering Student|Developer</p>
+            <h1>Hello,<br> I am <span>Tantoluwa</span><br></h1>
+        </div>
+    </div>
+</div>
+<!-- ------------------about------------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/14.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Oluseyi Tantoluwa Adesina is a 400 level student at the department of Electrical
+                     and Electronic Engineering, Faculty of Technology, University of Ibadan. She got 
+                     her training and leadership certificate from Sea School, Apapa Lagos. She has led 
+                     in various capacities such as in The International School, Ibadan as a prefect and 
+                     leader of fellowship (ICF), in a Baptist Church as teenage President, in Bowels of 
+                     Mercy as Secretary and Vice-President, in the department of Electrical and Electronic 
+                     Engineering as course representative, in the faculty fellowship as Secretary and in 
+                     IEEE Ul student branch as Head of Programs and Logistics. She got awards at graduation
+                     in secondary school as best in Further Maths and second in Mathematics and English. She
+                     has interests in writing, the care of orphans and vulnerable children, Graphics Design, 
+                     Energy, Power, Embedded Systems, Aviation and Aeronautics, Electricity and Electronics. 
+                     She has expertise in Microsoft Office and communication, she works efficiently with little 
+                     or no supervision. She is passionate about learning and growth.</p>
+
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Graphics Design</span><br>Designing logos and flyers</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            <li><span>Writing and Editing</span><br>IEEE ISV Paper Certification</li>
+                            <li><span>Programming Skills</span><br>C#, Fortran, SQL, PostgreSQL, PopSQL and Java</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-current</span><br>Bincom Academy</li>
+                            <li><span>2024-current</span><br>Novel Solar</li>
+                            <li><span>2023</span><br>Transmission Company of Nigeria</li>
+                            <li><span>2022</span><br>Otesco Divine Solutions</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-current</span><br>University of Ibadan</li>
+                            <li><span>2012-2018</span><br>International School Ibadan</li>
+                        </ul>
+                     </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------services------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1> 
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I can create visually appealing and user-friendly websites, involving layout,
+                    colours, typography and interactive elements just like this one for schools,
+                    churches, businesses and so on.</p>
+                    <a href="https://wa.link/yvzvud">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Graphics Design</h2>
+                <p>I started graphics design in 2020 and I've been using tools such as
+                    Photoshop, Illustrator, Corel Draw and Canva to create beautiful designs
+                    for flyers, logos and greeting cards.</p>
+                    <a href="https://wa.link/yvzvud">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>I can plan, design, create, test, and deploy a software application 
+                    that runs on a mobile device to perform various business operations. I can 
+                    write software programs for use across mobile operating systems including 
+                    Apple, Android and Windows devices.</p>
+                    <a href="https://wa.link/yvzvud">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1> 
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/2.jpg">
+                <div class="layer">
+                    <h3>Flyers</h3>
+                    <p>I create amazing flyers that help your publicity for all kinds 
+                        of events; church, school, work and so on.</p>
+                        <a href="https://wa.link/yvzvud"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/17.JPG">
+                <div class="layer">
+                    <h3>Greeting Cards</h3>
+                    <p>I design beautiful virtual cards that can be used to greet 
+                        friends and families, including specialized birthday cards. 
+                        Here's where I show distance is not a barrier to gifting friends.</p>
+                        <a href="https://wa.link/yvzvud"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/18.jpg">
+                <div class="layer">
+                    <h3>Logo Designs</h3>
+                    <p>I create interesting and creative logos that are well 
+                        suited and tailored to what you do and speak volume.</p>
+                        <a href="https://wa.link/yvzvud"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.instagram.com/_tantoluwadesigns/" class="btn">See more</a>
+    </div>
+</div>
+<!-- -------------contact----------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>tantoluwaadesina@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>09161033106, 08098663600</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/_tantoluwadesigns/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/tantoluwa-adesina-71170a1aa"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.link/yvzvud"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="Images/ADESINA OLUSEYI TANTOLUWA.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Tantoluwa. Made with <i class="fa-solid fa-heart"></i> by Tantoluwa 2024.</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby4l5j1wqYDFigOY-I9A4Phg9etcpHtb83oh0KGA-5LOpilBvATZvLdJ1rNyuEqo9Dg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "I've received your message, yay!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>
